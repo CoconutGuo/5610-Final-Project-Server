@@ -1,0 +1,58 @@
+[
+    {
+        "_id": {
+          "$oid": "6575aa788fb97528243d1f4a"
+        },
+        "username": "ada",
+        "password": "ada123",
+        "email": "ada@example.com",
+        "phone": "1234567890",
+        "nickname": "ada",
+        "gender": "Female",
+        "intro": "ada",
+        "role": "USER",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "6575aa788fb97528243d1f4b"
+        },
+        "username": "bcb",
+        "password": "bcb123",
+        "email": "bcb@example.com",
+        "phone": "1234567890",
+        "nickname": "bcb",
+        "gender": "Female",
+        "intro": "bcb",
+        "role": "ADMIN",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "6575aa788fb97528243d1f4c"
+        },
+        "username": "zxz",
+        "password": "zxz123",
+        "email": "zxz@example.com",
+        "phone": "1234567890",
+        "nickname": "zxz",
+        "gender": "Male",
+        "intro": "zxz",
+        "role": "REVIEW",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "657634bcdbc270a7c4b5825f"
+        },
+        "username": "cvb",
+        "password": "cvb123",
+        "email": "cvb@example.com",
+        "phone": "1234567890",
+        "nickname": "cvb",
+        "gender": "Male",
+        "intro": "cvb",
+        "role": "USER",
+        "__v": 0
+      }
+]
