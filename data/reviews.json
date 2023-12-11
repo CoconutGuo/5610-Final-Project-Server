@@ -1,0 +1,39 @@
+[
+    {
+        "_id": {
+          "$oid": "6575ab8b8fb97528243d1f57"
+        },
+        "uid": {
+          "$oid": "6575aa788fb97528243d1f4a"
+        },
+        "imdbID": "tt0091902",
+        "rated": "5",
+        "content": "good!",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWMzODIwZTctNmJkMy00ZjIzLWE0OTAtYTNkNWZlNmQ3N2JjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "movieTitle": "White Slave",
+        "createAt": {
+          "$date": "2023-12-10T12:14:03.568Z"
+        },
+        "status": "Public",
+        "__v": 0
+      },
+      {
+        "_id": {
+          "$oid": "657626b2c285f4fd76c92f9e"
+        },
+        "uid": {
+          "$oid": "6575aa788fb97528243d1f4b"
+        },
+        "imdbID": "tt4162472",
+        "rated": "4",
+        "content": "awesome",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmMyN2JmNzktMmQ5YS00ODMzLWFhMzItMmQ1YzRjNGU1OTk5XkEyXkFqcGdeQXVyNTYzMTMyMDA@._V1_SX300.jpg",
+        "movieTitle": "The Newspaper",
+        "createAt": {
+          "$date": "2023-12-10T20:59:30.252Z"
+        },
+        "status": "Public",
+        "__v": 0
+      }
+
+]
