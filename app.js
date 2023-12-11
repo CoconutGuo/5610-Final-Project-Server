@@ -16,7 +16,7 @@ const app = express()
 app.use(
   cors({
     credentials: true,
-    origin: "https://main--charming-cucurucho-2fd0c4.netlify.app",
+    origin: "https://main--charming-cucurucho-2fd0c4.netlify.app/",
   })
 )
 
