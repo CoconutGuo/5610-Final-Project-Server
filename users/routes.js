@@ -6,8 +6,10 @@ function UserRoutes(app) {
     if (['ADMIN', 'REVIEW'].includes(newUser.role)) {
       const curUser = req.session['currentUser']
       if (curUser && curUser.role == 'ADMIN') {
-        const status = await dao.deleteUser(req.params.userId)
-        res.json(status)
+        // const status = await dao.deleteUser(req.params.userId)
+        // res.json(status)
+        const user = await dao.createUser(req.body)
+        res.json(user)
       } else {
         res.status(403).json({ msg: 'No Permission!' })
       }
