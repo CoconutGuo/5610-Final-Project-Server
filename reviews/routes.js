@@ -59,5 +59,18 @@ function ReviewRoutes(app) {
     res.json(reviews)
   }
   app.get('/api/reviews/:userId', findReviewsByUid)
+
+  const deleteReview = async (req, res) => {
+    const curUser = req.session['currentUser']
+    if (curUser && curUser.role == 'REVIEW') {
+      const { rId } = req.params
+      const status = await dao.deleteReview(rId)
+      res.json(status)
+    } else {
+      res.status(403).json({ msg: 'No Permission!' })
+    }
+  }
+  app.delete('/api/reviews/:rId', deleteReview)
 }
+
 export default ReviewRoutes
