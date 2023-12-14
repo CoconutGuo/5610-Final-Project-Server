@@ -16,3 +16,5 @@ export const findPendingReviews = () => model.find({ status: { $eq: 'Pending' } 
 export const findReviewsByUid = (uid) => model.find({ uid: new Types.ObjectId(uid), status: { $eq: 'Public' } }).sort({ createAt: 1 })
 
 export const updateReviews = (rId, review) => model.updateOne({ _id: rId }, { $set: review })
+
+export const deleteReview = (rId) => model.deleteOne({ _id: rId })
